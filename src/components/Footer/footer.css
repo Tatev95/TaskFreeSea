@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+.footer-container {
+  padding: 102px 135px 29px 135px;
+  background-color: #111111;
+  margin-top: -1px;
+}
+
+.footer-quick {
+  display: flex;
+  justify-content: space-between;
+  max-width: 426px;
+}
+
+.footer-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-lorem {
+  color: #aaaaaa;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.lorem-container {
+  max-width: 270px;
+}
+
+.call-button {
+  padding: 8px 16px;
+  background-color: #ff7425;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 118px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.phone-number {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 23.72px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  margin: 0;
+}
+
+.phone-icon {
+  margin-right: 6px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.about-pricing {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: #ffffff;
+}
+
+.about-list > li {
+  list-style: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 27.37px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #aaaaaa;
+}
+
+.social-link {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.fb {
+  background: linear-gradient(180deg, #0052ff 33.93%, #ffffff 100%);
+}
+
+.tw {
+  background: linear-gradient(
+    180deg,
+    #09bbff 19.64%,
+    rgba(255, 255, 255, 0.96) 100%
+  );
+}
+
+.dr {
+  background: linear-gradient(180deg, #ea4c89 17.86%, #ffffff 117.86%);
+}
+
+.insta {
+  background: linear-gradient(
+    157.57deg,
+    #565bc9 46.91%,
+    #cc3385 73.95%,
+    #f69e54 92.45%
+  );
+}
+
+.fb,
+.tw,
+.dr,
+.insta {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin-right: 10px;
+}
+
+.email-address {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 42px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 25px;
+}
+
+.mail {
+  height: 84px;
+}
+
+.info {
+  text-decoration: underline;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.copyright-line {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  margin-top: 64px;
+}
+
+.copyright-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #888888;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.terms {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.term {
+  margin-right: 15px;
+}

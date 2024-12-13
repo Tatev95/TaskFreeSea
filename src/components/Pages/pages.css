@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+.pages {
+  background-color: #222222;
+  margin-top: -1px;
+}
+
+.pages-container {
+  padding: 100px 135px 92px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-sections {
+  width: 379px;
+  text-align: center;
+  position: relative;
+}
+
+.page-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 67.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: transparent;
+  -webkit-text-stroke: 1.5px #ffffff;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.page-icon {
+  position: absolute;
+  left: 15%;
+  transform: translateX(-50%);
+  top: 50px;
+}
+
+.page-pageTitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 67.5px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.line-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 310px;
+  margin-top: -80px;
+}
+
+.page-line {
+  width: 30px;
+  background-color: #ffffff;
+  height: 1px;
+  margin-right: 30px;
+}
+
+.page-lorem {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  text-align: left;
+  color: #aaaaaa;
+  margin-top: -37px;
+}
+
+.page-ul{
+    margin-left: -20px;
+}
+
+.page-list {
+  text-align: left;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30.4px;
+  color: #ffffff;
+}

@@ -1,0 +1,449 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+.home {
+  color: #ffffff;
+  padding-top: 21px;
+  background-color: #111111;
+  margin-top: 5px;
+}
+
+.home-page {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #111111;
+}
+
+.left-section {
+  max-width: 416px;
+  padding-top: 20px;
+}
+
+.digital-agency {
+  font-family: "Poppins", sans-serif;
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 135px;
+  text-align: left;
+  margin-bottom: 19px !important;
+}
+
+.digital-solutions {
+  margin: 0 !important;
+}
+
+.lorem {
+  color: #cccccc;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 53px;
+}
+
+.mail-call {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 42px;
+  flex-wrap: wrap;
+}
+
+.mail-add {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 142px;
+}
+.mail-to {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.mail-text {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.6px;
+  letter-spacing: 0.2em;
+  text-align: left;
+  margin: 0;
+  color: #aaaaaa;
+}
+
+.mail-icon {
+  margin-right: 11px;
+}
+
+.mail-address {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: left;
+  margin: 0;
+  color: #ffffff;
+}
+
+.scroll {
+  transform: rotate(270deg);
+  display: inline-block;
+  margin: 0 !important;
+}
+
+.scroll-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 42px;
+  align-items: flex-start;
+  width: 350px;
+}
+
+.scroll-shape {
+  cursor: pointer;
+}
+
+.right-section {
+  max-width: 670px;
+  background: #222222;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.right-part {
+  background: #222222;
+  height: fit-content;
+}
+
+.scroll-section {
+  width: 100%;
+  /* overflow-y: auto; */
+}
+
+.home-image {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+}
+
+.subscriber-item {
+  width: 104px;
+}
+
+.scroll-section img {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.subscriber-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 88px;
+  margin-bottom: -25px;
+}
+
+.subscriber-detail {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 26.4px;
+  text-align: left;
+}
+
+.subscriber-item {
+  height: 93px;
+  margin-bottom: 50px;
+}
+
+.subscribers {
+  margin-top: 54px;
+  margin-left: 33px;
+  margin-right: 33px;
+  margin: 54px 33px 0;
+}
+
+.people-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 434px;
+}
+
+.people-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 211px;
+}
+
+.registered {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #cccccc;
+}
+
+.business-people {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 0;
+  color: #ffffff;
+}
+
+.people-part {
+  margin: 18px 20px 18px 33px;
+}
+
+.about-us {
+  width: 100%;
+  background: #181818;
+  font-size: 25px;
+  padding-top: 94px;
+  padding-bottom: 200px;
+}
+
+.about-us-text {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22.4px;
+  letter-spacing: 0.15em;
+  color: #888888;
+}
+
+.about-container {
+  padding-left: 135px;
+  padding-right: 135px;
+  position: relative;
+}
+
+.shape-right {
+  position: absolute;
+  right: 90px;
+  top: -30px;
+}
+
+.about-text {
+  width: 370px;
+  color: #aaaaaa;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  text-align: left;
+  margin-top: -25px;
+}
+
+.digital-world {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.about-images {
+  width: 750px;
+}
+
+.about-content-text {
+  width: 798px;
+}
+
+.shape-about-top {
+  position: absolute;
+  left: 720px;
+  top: 125px;
+}
+
+.sed {
+  margin-bottom: 20px;
+}
+
+.about-bg {
+  display: flex;
+  justify-content: space-between;
+  width: 362px;
+  padding: 52px 59px;
+  align-items: center;
+  background-color: #333333;
+  position: absolute;
+  bottom: -115px;
+  z-index: 99999;
+  right: 360px;
+}
+
+.working-count {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 87.5px;
+  text-align: left;
+  color: #ffffff;
+  margin: 0;
+}
+
+.working-people {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: -15px;
+}
+
+.shape-about-bottom {
+  position: absolute;
+  bottom: -25px;
+  left: 95px;
+  z-index: 9999;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about-image {
+  position: relative;
+  z-index: 1000;
+}
+
+@media (max-width: 1440px) {
+  .home-image {
+    width: calc(34.72vw);
+  }
+}
+
+
+@media (max-width: 1415px) {
+ .about-image{
+  width: 500px;
+ }
+ .about-bg{
+  width: 300px;
+  left: 300px;
+ }
+ .shape-about-top{
+  left: 550px;
+ }
+
+ .about-text{
+  width: 460px;
+ }
+}
+ 
+
+@media (max-width: 1340px) {
+  .about-image{
+   width: 400px;
+  }
+  .about-bg{
+   width:250px;
+   left: 250px;
+   bottom: -20px;
+  }
+  .shape-about-top{
+    left: 470px;
+    top: 155px;
+  }
+ 
+  .about-text{
+   width: 400px;
+  }
+ }
+@media (max-width: 1300px) {
+  .left-section {
+    max-width: 200px;
+  }
+  .digital-agency {
+    font-size: 65px;
+    line-height: 80px;
+  }
+
+  .mail-call {
+    margin-bottom: 65px;
+  }
+}
+
+
+@media (max-width: 1280px) {
+  .subscriber-name {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: -25px;
+  }
+
+  .subscriber-detail {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 8px;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .mail-text {
+    font-size: 10px;
+    line-height: 14px;
+    text-align: left;
+  }
+
+  .mail-icon {
+    margin-right: 5px;
+  }
+
+  .mail-address {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+  }
+}
+
+.logos {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.logo-img {
+  margin-right: 73px;
+}
+
+.shape {
+  margin-left: -30px;
+}
+
+@media (max-width: 1330px) {
+  .logo-img {
+    margin-right: 55px;
+  }
+  .right-section{
+    align-items: stretch;
+  }
+}
+
+@media (max-width: 1090px) {
+  .left-section {
+    max-width: 150px;
+  }
+  .digital-agency {
+    font-size: 34px;
+    line-height: 50px;
+  }
+  .subscribers{
+    margin: 0 15px;
+  }
+}

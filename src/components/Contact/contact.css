@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+.contact-container {
+  padding-left: 135px;
+  background-color: #181818;
+  margin-top: -2px;
+  padding-bottom: 280px;
+}
+
+.contact-image {
+  width: 100%;
+}
+
+.contact {
+  position: relative;
+}
+
+.contact-withUs {
+  background-color: #222222;
+  position: absolute;
+  max-width: 1305px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: -135px;
+  padding: 60px 100px 60px 135px;
+  align-items: center;
+  bottom: -180px;
+}
+
+.make-smt {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 81px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  margin: 0;
+}
+
+.together {
+  color: #ff7425;
+}
+
+.contact-text {
+  max-width: 668px;
+}
+
+.round-contact {
+  width: 250px;
+  height: 250px;
+  background-color: #ff7425;
+  color: #ffffff;
+  border-radius: 50%;
+  margin-left: 154px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.round-text {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  letter-spacing: 0.18em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.round-arrow {
+  display: block;
+}
+

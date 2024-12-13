@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  height: 45px;
+}
+
+.logo {
+  width: 100%;
+}
+
+.menu-arrow {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.menu {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.nav-menu {
+  width: 100%;
+  margin-left: 148px;
+}
+
+.nav-menu .navbar {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+.nav-menu div a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 22.4px;
+  transition: color 0.3s;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.nav-menu div a.active {
+  color: #ff7425;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+@media (max-width: 1240px) {
+  .nav-menu {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .nav-menu div a {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .responsive-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 1010px) {
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    top: 60px;
+    right: 0;
+    width: 100%;
+  }
+  .icon .menu-toggle {
+    display: block !important;
+  }
+  .navigation-menu {
+    margin-right: 5px;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 1.5rem;
+  }
+}
